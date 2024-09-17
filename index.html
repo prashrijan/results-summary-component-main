@@ -3,17 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Results summary component</title>
 </head>
 <body>
 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="container">
+    <div class="wrapper">
+      <div id="result-container">
+        <h2 class="title">Your Result</h2>
+        <div class="score-container">
+          <h1>76</h1>
+          <p>of 100</p>
+        </div>
+        <div id="feedback-container">
+          <h2>Great</h2>
+          <p>You scored higher than 65% of the people who have taken these tests. 
+          </p>
+        </div>
+      </div>
+      <div id="summary-container">
+        <h2>Summary</h2>
+        <div class="options-container">
+          <div class="options reaction">
+            <div class="icons-text">
+              <img src="assets/images/icon-reaction.svg" alt="">
+              <p>Reaction</p>
+            </div>
+            <div class="score">
+              <p>80 <span>/ 100</span></p>
+            </div>
+          </div>
+          <div class="options memory">
+            <div class="icons-text">
+              <img src="assets/images/icon-memory.svg" alt="">
+              <p>Memory</p>
+            </div>
+            <div class="score">
+              <p>92 <span>/ 100</span></p>
+            </div>
+          </div>
+          <div class="options verbal">
+            <div class="icons-text">
+              <img src="assets/images/icon-verbal.svg" alt="">
+              <p>Verbal</p>
+            </div>
+            <div class="score">
+              <p>61 <span>/ 100</span></p>
+            </div>
+          </div>
+          <div class="options visual">
+            <div class="icons-text">
+              <img src="assets/images/icon-visual.svg" alt="">
+              <p>Visual</p>
+            </div>
+            <div class="score">
+              <p>72 <span>/ 100</span></p>
+            </div>
+          </div>
+        </div>
+        <button>Continue</button>
+      </div>
+    </div>
   </div>
 </body>
 </html>
